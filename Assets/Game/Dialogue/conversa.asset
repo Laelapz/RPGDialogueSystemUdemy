@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4536918961347970799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1969e83ac9262724b856de8fac52082e, type: 3}
+  m_Name: 3ce5f6da-4ab7-4fa9-99c3-9cc7fa92e614
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  dialogueText: oi
+  childrenNode:
+  - 46572747-5fe2-4576-8697-dc49179caad8
+  - 59e5d426-f868-40be-bfc7-a7d630ca51f0
+  rect:
+    serializedVersion: 2
+    x: 47
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: TestRootEntry
+  onExitAction: 
+--- !u!114 &-4472537338309380247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1969e83ac9262724b856de8fac52082e, type: 3}
+  m_Name: 46572747-5fe2-4576-8697-dc49179caad8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  dialogueText: fala meu bro
+  childrenNode:
+  - 9c43cd73-3b45-4598-8f17-c64ef0bdc329
+  - 4e61fe03-8b86-4166-a5d0-0d86d0eaa8af
+  rect:
+    serializedVersion: 2
+    x: 398
+    y: 53
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: TestAiExit
+--- !u!114 &-1575179255905051861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1969e83ac9262724b856de8fac52082e, type: 3}
+  m_Name: becbb6dc-e432-4811-9575-408f1e6f6b27
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  dialogueText: "n\xE3o \xE9 da sua conta!"
+  childrenNode: []
+  rect:
+    serializedVersion: 2
+    x: 1158
+    y: 117
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Attack
+--- !u!114 &-1181315545768188041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1969e83ac9262724b856de8fac52082e, type: 3}
+  m_Name: 9c43cd73-3b45-4598-8f17-c64ef0bdc329
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  dialogueText: tchau
+  childrenNode:
+  - 80b51b4f-4de1-455b-922c-da1207e66fea
+  rect:
+    serializedVersion: 2
+    x: 652
+    y: 2
+    width: 200
+    height: 100
+  onEnterAction: TestSelection
+  onExitAction: 
+--- !u!114 &-455618965026501053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1969e83ac9262724b856de8fac52082e, type: 3}
+  m_Name: 3967028d-aed0-467a-9851-a73c8bf0911f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  dialogueText: tudo
+  childrenNode: []
+  rect:
+    serializedVersion: 2
+    x: 639
+    y: 231.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acf16a3618b9c3a41869b94f4a0c5ce2, type: 3}
+  m_Name: conversa
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -4536918961347970799}
+  - {fileID: -4472537338309380247}
+  - {fileID: 1581782188151076608}
+  - {fileID: -1181315545768188041}
+  - {fileID: -455618965026501053}
+  - {fileID: 118449350236599707}
+  - {fileID: 7580421846100205954}
+  - {fileID: 3554539970423234856}
+  - {fileID: -1575179255905051861}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &118449350236599707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1969e83ac9262724b856de8fac52082e, type: 3}
+  m_Name: 4e61fe03-8b86-4166-a5d0-0d86d0eaa8af
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  dialogueText: "para qual dire\xE7\xE3o fica a loja de carne?"
+  childrenNode: []
+  rect:
+    serializedVersion: 2
+    x: 650
+    y: 112
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &1581782188151076608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1969e83ac9262724b856de8fac52082e, type: 3}
+  m_Name: 59e5d426-f868-40be-bfc7-a7d630ca51f0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  dialogueText: tudo bom?
+  childrenNode:
+  - 3967028d-aed0-467a-9851-a73c8bf0911f
+  rect:
+    serializedVersion: 2
+    x: 389
+    y: 231.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &3554539970423234856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1969e83ac9262724b856de8fac52082e, type: 3}
+  m_Name: 46ffe371-0754-4aaa-8e14-26694523f252
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  dialogueText: sim... err desculpa
+  childrenNode: []
+  rect:
+    serializedVersion: 2
+    x: 1152
+    y: 3
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &7580421846100205954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1969e83ac9262724b856de8fac52082e, type: 3}
+  m_Name: 80b51b4f-4de1-455b-922c-da1207e66fea
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  dialogueText: "j\xE1 vai?"
+  childrenNode:
+  - 46ffe371-0754-4aaa-8e14-26694523f252
+  - becbb6dc-e432-4811-9575-408f1e6f6b27
+  rect:
+    serializedVersion: 2
+    x: 902
+    y: 3
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
